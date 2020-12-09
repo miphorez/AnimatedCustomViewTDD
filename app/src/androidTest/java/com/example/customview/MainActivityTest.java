@@ -27,6 +27,6 @@ public class MainActivityTest {
     @Test
     public void onCreate() {
         onView(withId(R.id.textView))
-                .check(matches(withText("Hello!")));
+                .check(matches(withText("Hello")));
     }
 }
