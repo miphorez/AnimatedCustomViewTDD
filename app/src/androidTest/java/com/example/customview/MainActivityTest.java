@@ -26,8 +26,7 @@ public class MainActivityTest {
 
     @Test
     public void onCreate() {
-        assertTrue(true);
-//        onView(withId(R.id.textView))
-//                .check(matches(withText("Hello")));
+        onView(withId(R.id.textView))
+                .check(matches(withText("Hello!")));
     }
 }
